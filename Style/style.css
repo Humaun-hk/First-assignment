@@ -9,7 +9,7 @@
   justify-content: center;
   padding-top: 28px;
 }
-.hero .intro h1 {
+.intro h1 {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 48px;
@@ -18,7 +18,7 @@
   letter-spacing: 0%;
   text-align: center;
 }
-.hero .intro p {
+.intro p {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 16px;
@@ -26,8 +26,9 @@
   line-height: 26px;
   letter-spacing: 0%;
   text-align: center;
+  opacity: 0.7;
 }
-.hero .intro .btn {
+.btn {
   border-radius: 8px;
   background: rgb(13, 19, 33);
   color: rgb(255, 255, 255);
@@ -40,8 +41,90 @@
   padding: 15px;
   cursor: pointer;
 }
-.btn-cont{
+.btn-cont {
   margin-top: 45px;
   display: flex;
   justify-content: center;
+}
+.next {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  margin: 70px;
+}
+.second h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 80px;
+}
+.second p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+.box {
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 48px;
+}
+.ttx h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.l-text p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.btn-box {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+}
+.one {
+  width: 600px;
+}
+.two {
+  width: 300px;
+  margin: 30px;
+  display: flex;
+  align-items: right;
+}
+.little {
+  display: flex;
+  margin-bottom: 32px;
+  padding: 24px;
+  justify-content: space-between;
+}
+.ttx{
+  width: 750px;
+}
+#second{
+  flex-direction: row-reverse;
+  justify-content:start;
 }
