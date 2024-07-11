@@ -101,10 +101,12 @@
 .btn-box {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
+  font-weight: 400px;
   font-size: 15px;
   text-align: center;
   padding: 10px;
-  background-color: white;
+  background-color: rgb(250, 249, 249);
+  margin-top: 25px;
 }
 .one {
   width: 600px;
@@ -121,10 +123,49 @@
   padding: 24px;
   justify-content: space-between;
 }
-.ttx{
+.ttx {
   width: 750px;
 }
-#second{
+#second {
   flex-direction: row-reverse;
-  justify-content:start;
+  justify-content: start;
+}
+.big-box {
+  width: 1200px;
+  /* display: flex;
+  justify-content: center; */
+  margin-left: 150px;
+}
+.into-big h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.into-big p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+.video-box {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+  width: 1150px;
+  height: 620px;
+  margin-top: 50px;
+}
+.video {
+  width: 1076px;
+  height: 550px;
+  border-radius: 16px;
 }
