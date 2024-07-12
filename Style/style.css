@@ -132,8 +132,6 @@
 }
 .big-box {
   width: 1200px;
-  /* display: flex;
-  justify-content: center; */
   margin-left: 150px;
 }
 .into-big h2 {
@@ -168,4 +166,123 @@
   width: 1076px;
   height: 550px;
   border-radius: 16px;
+}
+.fourth {
+  width: 1200px;
+  margin-left: 150px;
+}
+.box-text h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.box-text p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.box-text {
+  margin-top: 100px;
+  /* display: flex;
+  align-items: center; */
+}
+.first-card {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  width: 375px;
+}
+.first-card h4 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.first-card p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.fst {
+  padding: 20px;
+}
+.fst a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+.second-card p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.third-card p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.second-card h4 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.third-card h4 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.second-card {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  width: 375px;
+}
+.third-card {
+  width: 375px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+.total-card{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
